@@ -1,7 +1,8 @@
 
 body{
+	background-color: gray;
+	background-image: url(../img/temp1.jpg);
 	font-family: Arial, sans-serif;
-	background-color: url("../img/temp1.jpg");
 	margin: 20px;
 	padding: 20px;
 	min-width: 700px;
