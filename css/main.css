@@ -1,30 +1,52 @@
 
 body{
-	background-color: gray;
-	background-image: url(../img/temp1.jpg);
+	background-color: #D3FFAC;
 	font-family: Arial, sans-serif;
-	margin: 20px;
-	padding: 20px;
-	min-width: 700px;
+	margin: 5px;
+	padding: 5px;
+	min-width: 600px;
+	max-width: 1000px;	
+	font-size: 80%;
 	max-width: auto;
 }
-	#computer-skills {
-	margin-left: auto;
-	margin-right: auto;
-	border:2px solid black;
-	background-color: yellow;
-	width:50%;
-	float: left;
-	margin: 10px;
-	}
-	#knowledge {
-	margin: 10px;
-	border:2px solid black;
-	background-color: yellow;
-	}
+#address p {
+	float: right;
+	max-width: 400px;
+	margin:0px;
+	padding: 5px;    
+}
+
+h2{
+	margin-left: 350px;
+	font-size: 400%;
+	color: blue;
+}
+h3 {
+	font-size: 150%;
+	font-family: italic;
+}
+p{
+	margin-left: 150px;
+}
+dl{margin-left: 150px;	
+}
+#education  dt{color: red;
+}
+#work-experience dt{
+	color: red;
+}
+
+.jornal{
+	color: red;
+}
+ul{margin-left: 150px;
+
+}
+ol{margin-left:150px;
+}
 h3 {
 	background:margin: 0px;
-	padding: 10px;
+	
 }
 .section {
 	max-width: auto;
