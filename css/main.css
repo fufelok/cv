@@ -1,29 +1,80 @@
 
 body{
-	background-color: #D3FFAC;
+	background-color: #ccc;
 	font-family: Arial, sans-serif;
-	margin: 5px;
-	padding: 5px;
-	min-width: 600px;
-	max-width: 1000px;	
-	font-size: 80%;
-	max-width: auto;
-}
-#address p {
-	float: right;
-	max-width: 400px;
-	margin:0px;
-	padding: 5px;    
-}
+	font-size: 90%;
 
-h2{
-	margin-left: 350px;
+}
+img {
+	display: inline-block;
+	width: auto;
+	background-color:white;
+	position: relative;
+	border:1px solid #999;
+	margin:0px;
+	padding:10px;
+	padding-bottom: 10px;
+	box-shadow: 1px 1px 8px #777;
+	overflow: hidden;
+}
+.container{
+	background:url(../img/Emily.png) repeat; 
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.header{
+	overflow: hidden;
+	background:url(../img/background-3.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: left;
+	padding: 10px;
+}
+.text { 
+	float: right;
+	width: 35%;
+	background:url(../img/My.png) no-repeat;
+	background-size: 100% 100%;
+	padding: 10px;
+	font-family: Georgia-bold-italic,Arial, sans-serif; 
+	border:2px solid;
+	border-color: green;
+	border-radius: 5px;
+}
+.address {
+	float: left;
+	width: 60%	
+}
+.address address{
+	background:url(../img/temp1.png) no-repeat;
+	background-size: 100% 100%;
+	width: 200px;
+	padding: 25px;
+	border:2px solid;
+	border-radius: 5px;
+	border-color: green;
+
+}
+h2{ 
 	font-size: 400%;
 	color: blue;
+	text-align: center;
+	font-style: italic;
+	color: yellow;
+	margin: 5px;
 }
 h3 {
 	font-size: 150%;
 	font-family: italic;
+	margin-bottom: 0px;
+}
+h4 {
+	text-align: center;
+	font-size: 200%;
+	background-color:violet;
+	color:white;
+	margin: 0;
 }
 p{
 	margin-left: 150px;
@@ -35,7 +86,6 @@ dl{margin-left: 150px;
 #work-experience dt{
 	color: red;
 }
-
 .jornal{
 	color: red;
 }
@@ -44,12 +94,15 @@ ul{margin-left: 150px;
 }
 ol{margin-left:150px;
 }
-h3 {
-	background:margin: 0px;
-	
-}
 .section {
-	max-width: auto;
 	min-width: 300px;
-	overflow: hidden;
+	padding: 10px;
+	padding-bottom: 0;
+	clear: both;
+}
+#list-of-publications{
+	padding-bottom:10px;
+}
+#list-of-publications ol li{
+	padding-bottom:8px;
 }
